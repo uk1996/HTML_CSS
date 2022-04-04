@@ -1,0 +1,32 @@
+/* class selector, 우선순위2 */
+.profile {
+width: 150px; 
+display: block; 
+margin-left: auto; 
+margin-right: auto;
+}
+
+.name {
+    text-align:center; 
+    font-size: 25px;
+}
+
+
+/* tag selector, 우선순위 3 */
+p { 
+    text-align: center;
+}
+
+span {
+    color: green;
+}
+
+.spancolor {
+    color: red;
+}
+
+/* id selector (잘 사용하지 않음), 우선순위 1 */
+#special {
+    text-align: center;
+    color: blue;
+}
