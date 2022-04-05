@@ -11,6 +11,20 @@ margin-right: auto;
     font-size: 25px;
 }
 
+.spancolor {
+    color: red;
+}
+
+.box {
+    width: fit-content;
+    background-color: cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 5px 5px  gray;
+}
 
 /* tag selector, 우선순위 3 */
 p { 
@@ -21,9 +35,7 @@ span {
     color: green;
 }
 
-.spancolor {
-    color: red;
-}
+
 
 /* id selector (잘 사용하지 않음), 우선순위 1 */
 #special {
