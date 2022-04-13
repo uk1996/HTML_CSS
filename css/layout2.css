@@ -15,6 +15,7 @@
     width: 50px;
     float: left;
     margin-right: 3px;
+    border-radius: 90px;
 }
 
 .content-header {
