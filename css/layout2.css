@@ -35,3 +35,17 @@
     height: 200px;
     float:left;
 }
+
+/* > 사용할경우는 ~ 안에 있는 직계자식, 스페이스바는 ~안에 있는 모든자식 */
+.navbar>li{
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+}
