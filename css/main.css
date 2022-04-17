@@ -112,3 +112,13 @@ span {
     margin: auto;
     width: 150px;
 }
+
+.explain-box {
+    width: 700px;
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+    margin: auto;
+    position: relative;
+    bottom: 60px;
+}
