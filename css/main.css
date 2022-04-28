@@ -1,6 +1,12 @@
 /* class selector, 우선순위2 */
-div {
+div, input, textarea {
     box-sizing: border-box;
+}
+
+p {
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 .profile {
@@ -63,9 +69,6 @@ margin-right: auto;
 
 
 /* tag selector, 우선순위 3 */
-p { 
-    text-align: center;
-}
 
 span {
     color: green;
@@ -130,3 +133,58 @@ span {
     /*z-index:0;*/
 }
 
+.contact_main_box {
+    background-color: #eee;
+    width: 60%;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50px;
+    padding: 5%;
+}
+
+.form-background {
+    width: 60%;
+    min-width: 400px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    position: relative;
+    top: 30px;
+}
+
+.form-white {
+    width: 100%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+
+.form-input {
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.w-50 {
+    width: 50%;
+    float: left;
+    padding: 2%;
+}
+
+.w-100 {
+    width: 100%;
+    padding: 2%;
+}
+
+.yellow-button {
+    background-color: darkgoldenrod;
+    border: 1px solid darkgoldenrod;
+    border-radius: 3px;
+    float: right;
+    color: white;
+}
