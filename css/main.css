@@ -1,4 +1,8 @@
 /* class selector, 우선순위2 */
+div {
+    box-sizing: border-box;
+}
+
 .profile {
 width: 150px; 
 display: block; 
@@ -111,14 +115,18 @@ span {
     right: 0px;
     margin: auto;
     width: 150px;
+    /*z-index: 5;*/
 }
 
 .explain-box {
-    width: 700px;
+    width: 80%;
+    max-width: 600px;
     text-align: center;
     padding: 20px;
     background-color: #eee;
     margin: auto;
     position: relative;
     bottom: 60px;
+    /*z-index:0;*/
 }
+
