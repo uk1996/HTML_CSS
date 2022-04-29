@@ -9,6 +9,15 @@ p {
     margin-bottom: 2px;
 }
 
+td, th {
+    /*border: 1px solid black;*/
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
 .profile {
 width: 150px; 
 display: block; 
@@ -187,4 +196,27 @@ span {
     border-radius: 3px;
     float: right;
     color: white;
+}
+
+.cart-background {
+    width: 100%;
+    background-color: #c2dede;
+    padding-left:20%;
+    padding-right:20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cart-table {
+    width: 100%;
+    background-color: white;
+}
+
+.cart-table td, .cart-table th {
+    padding: 15px;
+    border-bottom: 1px solid #c2dede;
+}
+
+.cart-table th:nth-child(2) {
+    width: 400px;
 }
